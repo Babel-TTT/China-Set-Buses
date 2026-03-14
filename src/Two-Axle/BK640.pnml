@@ -3,7 +3,7 @@ spriteset (spriteset_BK640_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
 }
 
 spriteset (spriteset_BK640, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_32bpp ("Two-Axle", "BK640oil_BJ")
+    template_standard_0 ("Two-Axle", "BK640oil_BJ")
 }
 
 

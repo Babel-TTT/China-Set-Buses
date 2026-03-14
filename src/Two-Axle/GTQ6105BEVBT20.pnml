@@ -3,11 +3,11 @@ spriteset (spriteset_GTQ6105BEVBT20_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)
 }
 
 spriteset (spriteset_GTQ6105BEVBT20_GT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_32bpp ("Two-Axle", "GTQ6105BEVBT20_GT")
+    template_standard_0 ("Two-Axle", "GTQ6105BEVBT20_GT")
 }
 
 spriteset (spriteset_GTQ6105BEVBT20_TJ, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_32bpp ("Two-Axle", "GTQ6105BEVBT20_TJ")
+    template_standard_0 ("Two-Axle", "GTQ6105BEVBT20_TJ")
 }
 
 switch (FEAT_ROADVEHS, SELF, switch_GTQ6105BEVBT20_cargo_subtype, cargo_subtype) {

@@ -3,11 +3,11 @@ spriteset (spriteset_JNP6181GVC_BJ_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) 
 }
 
 spriteset (spriteset_JNP6181GVC_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_32bpp ("Articulated", "JNP6181GVC-BJ-1")
+    template_standard_0 ("Articulated", "JNP6181GVC-BJ-1")
 }
 
 spriteset (spriteset_JNP6181GVC_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_32bpp ("Articulated", "JNP6181GVC-BJ-2")
+    template_standard_0 ("Articulated", "JNP6181GVC-BJ-2")
 }
 
 switch (FEAT_ROADVEHS, SELF, switch_JNP6181GVC_articulated_part, extra_callback_info1) {

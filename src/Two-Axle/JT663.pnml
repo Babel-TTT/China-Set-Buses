@@ -3,7 +3,7 @@ spriteset (spriteset_JT663_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
 }
 
 spriteset (spriteset_JT663, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_32bpp ("Two-Axle", "JT663_YX")
+    template_standard_0 ("Two-Axle", "JT663_YX")
 }
 
 

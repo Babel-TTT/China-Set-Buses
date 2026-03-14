@@ -3,11 +3,11 @@ spriteset (spriteset_ZK6125CHEVNPG29_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP
 }
 
 spriteset (spriteset_ZK6125CHEVNPG29_1_DT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_32bpp ("Two-Axle", "ZK6125CHEVNPG29_1_DT")
+    template_standard_2 ("Two-Axle", "ZK6125CHEVNPG29_1_DT")
 }
 
 spriteset (spriteset_ZK6125CHEVNPG29_YT_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_32bpp ("Two-Axle", "ZK6125CHEVNPG29_YT_1")
+    template_standard_2 ("Two-Axle", "ZK6125CHEVNPG29_YT_1")
 }
 
 switch (FEAT_ROADVEHS, SELF, switch_ZK6125CHEVNPG29_cargo_subtype, cargo_subtype) {

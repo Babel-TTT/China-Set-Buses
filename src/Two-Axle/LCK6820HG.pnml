@@ -3,11 +3,11 @@ spriteset (spriteset_LCK6820HG_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
 }
 
 spriteset (spriteset_LCK6820HG_TJ_YG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_32bpp ("Two-Axle", "LCK6820HG_TJ_YG")
+    template_standard_0 ("Two-Axle", "LCK6820HG_TJ_YG")
 }
 
 spriteset (spriteset_LCK6820HG_ZT_YG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_32bpp ("Two-Axle", "LCK6820HG_ZT_YG")
+    template_standard_0 ("Two-Axle", "LCK6820HG_ZT_YG")
 }
 
 switch (FEAT_ROADVEHS, SELF, switch_LCK6820HG_cargo_subtype, cargo_subtype) {

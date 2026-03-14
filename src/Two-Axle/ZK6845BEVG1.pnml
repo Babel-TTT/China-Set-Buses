@@ -3,11 +3,11 @@ spriteset (spriteset_ZK6845BEVG1_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
 }
 
 spriteset (spriteset_ZK6845BEVG1_YT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_32bpp ("Two-Axle", "ZK6845BEVG1_YT")
+    template_standard_0 ("Two-Axle", "ZK6845BEVG1_YT")
 }
 
 spriteset (spriteset_ZK6845BEVG1_TJBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_32bpp ("Two-Axle", "ZK6845BEVG1_TJBH")
+    template_standard_0 ("Two-Axle", "ZK6845BEVG1_TJBH")
 }
 
 switch (FEAT_ROADVEHS, SELF, switch_ZK6845BEVG1_cargo_subtype, cargo_subtype) {
