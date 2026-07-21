@@ -93,11 +93,11 @@ item (FEAT_ROADVEHS, ZK6125CHEVNPG29_standard) {
         cargo_subtype_text:             switch_ZK6125CHEVNPG29_standard_cargo_subtype;
         length:                         switch_2_7_2_length_11;
         articulated_part:               switch_ZK6125CHEVNPG29_standard_articulated_part;
-        additional_text:                string(STR_DESC_4, string(STR_TYPE_URBAN), string(STR_SIZE_LARGE), string(STR_COMFORT, 125 ,string(STR_CLASS_ORIDINARY)), string(STR_LOADING_SPEED, 40));
+        additional_text:                string(STR_DESC_5, string(STR_TYPE_URBAN), string(STR_SIZE_LARGE), string(STR_COMFORT, 125 ,string(STR_CLASS_ORIDINARY)), string(STR_LOADING_SPEED, 40), string(STR_POWERTRAIN_TYPE, string(STR_HYBRID_2, string(STR_ELECTRIC), string(STR_NG))));
 
-        cost_factor:                    200;
-        running_cost_factor:            1 * runningcostfactor();
-        purchase_running_cost_factor:   1 * 8;
+        cost_factor:                    279;
+        running_cost_factor:            8 * runningcostfactor();
+        purchase_running_cost_factor:   8 * 8;
         name:                           switch_ZK6125CHEVNPG29_standard_name;
     }
 }

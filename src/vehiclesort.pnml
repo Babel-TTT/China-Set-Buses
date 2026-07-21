@@ -1,4 +1,66 @@
+// 用途（城市客车，城郊客车，城际客车（公交），城际客车（班线），长途客车，旅游客车），长度，首字母，荷载
+
 sort (FEAT_ROADVEHS, [
-    JNP6127EA
+    //城市客车
+    LCK6820HG,
+    ZK6845BEVG1,
+    TJ645B,
+    BK640,
+    BJ6105CHEVCG_1,
+    GTQ6105BEVBT20,
+    ZK6100HGA,
+    Leyland_Olympian_11M,
+    BJ6123SHEVCA_7,
+    GTQ6121BEVBT3,
+    KLQ6129GE4_high_spec,
+    KLQ6129GE4_standard,
+    SWB6120V4LE,
+    SWB6128V8LF,
+    SWB6128V8LF_3D,
+    ZK6125CHEVNPG29_high_spec,
+    ZK6125CHEVNPG29_standard,
+    JNP6181GVC,
+
+    //城郊客车
+
+
+    //城际客车（公交）
+
+
+    //城际客车（班线）
+    ZK6820BEVG33,
+    ZK6820BEVG33_2D,
+    ZK6907H6Y_39seats_standard,
+    KLQ6109QE4_46seats,
+    KLQ6116ZGBEVN1,
+    XML6102J15Y_48seats,
+    ZK6117BEVY33,
+    JNP6127FEA_60seats,
+
+    //长途客车
+    JT663,
+    ZK6907H6Y_26seats,
+    ZK6907H6Y_39seats_high_spec,
+    KLQ6109QE4_38seats,
+    KLQ6112HQE31,
+    XML6102J15Y_36seats,
+    KLQ6112LDE41,
+    KLQ6115HTAE50,
+    ZK6117H6Y1_30seats,
+    ZK6117H6Y1_36seats,
+    ZK6117H6Y1_48seats,
+    BFC6120_45seats,
+    BFC6120_54seats,
+    JNP6127EA,
+    JNP6127FEA_39seats,
+    JNP6127FEA_54seats,
+    ZK6128H6QY1_39seats,
+    ZK6128H6QY1_51seats,
+    ZK6137H16QY1_39seats,
+    ZK6137H16QY1_54seats,
+
+    //旅游客车
+    ZK6907H6Y1,
+    ZK6128H6QY6,
+    
 ]);
-//还没想好购买菜单怎么排序

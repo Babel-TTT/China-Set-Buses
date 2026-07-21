@@ -78,10 +78,10 @@ item (FEAT_ROADVEHS, KLQ6129GE4_high_spec) {
         cargo_subtype_text:             switch_KLQ6129GE4_high_spec_cargo_subtype;
         length:                         switch_2_7_2_length_11;
         articulated_part:               switch_KLQ6129GE4_high_spec_articulated_part;
-        additional_text:                string(STR_DESC_4, string(STR_TYPE_URBAN), string(STR_SIZE_LARGE), string(STR_COMFORT, 157 ,string(STR_CLASS_HIGH_2)), string(STR_LOADING_SPEED, 40));
-        cost_factor:                    195;
-        running_cost_factor:            2 * runningcostfactor();
-        purchase_running_cost_factor:   2 * 8;
+        additional_text:                string(STR_DESC_5, string(STR_TYPE_URBAN), string(STR_SIZE_LARGE), string(STR_COMFORT, 157 ,string(STR_CLASS_HIGH_2)), string(STR_LOADING_SPEED, 40), string(STR_POWERTRAIN_TYPE, string(STR_DIESEL)));
+        cost_factor:                    245;
+        running_cost_factor:            18 * runningcostfactor();
+        purchase_running_cost_factor:   18 * 8;
         name:                           switch_KLQ6129GE4_standard_name;
     }
 }

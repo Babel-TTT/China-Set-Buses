@@ -66,7 +66,7 @@ item (FEAT_ROADVEHS, Leyland_Olympian_11M) {
         tractive_effort_coefficient:    0.3;
         speed:                          80 km/h;
 
-        cargo_capacity:                 18;
+        cargo_capacity:                 75;
         loading_speed:                  30 << param_loading_speed;
         cargo_age_period:               138 << param_cargo_decay;
     }
@@ -75,12 +75,12 @@ item (FEAT_ROADVEHS, Leyland_Olympian_11M) {
         purchase:                       spriteset_Leyland_Olympian_11M_purchase;
         length:                         switch_8_2_length_10;
         cargo_subtype_text:             switch_Leyland_Olympian_11M_cargo_subtype;
-        additional_text:                string(STR_DESC_4, string(STR_TYPE_URBAN), string(STR_SIZE_MEDIUM), string(STR_COMFORT_WITHOUT_CLASS, 138), string(STR_LOADING_SPEED, 30));
+        additional_text:                string(STR_DESC_5, string(STR_TYPE_URBAN), string(STR_SIZE_MEDIUM), string(STR_COMFORT_WITHOUT_CLASS, 138), string(STR_LOADING_SPEED, 30), string(STR_POWERTRAIN_TYPE, string(STR_DIESEL)));
         articulated_part:               switch_Leyland_Olympian_11M_articulated_part;
 
-        cost_factor:                    147;
-        running_cost_factor:            2 * runningcostfactor();
-        purchase_running_cost_factor:   2 * 8;
+        cost_factor:                    180;
+        running_cost_factor:            18 * runningcostfactor();
+        purchase_running_cost_factor:   18 * 8;
     }
 }
 

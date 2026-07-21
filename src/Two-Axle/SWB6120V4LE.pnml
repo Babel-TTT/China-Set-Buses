@@ -93,11 +93,11 @@ item (FEAT_ROADVEHS, SWB6120V4LE) {
         cargo_subtype_text:             switch_SWB6120V4LE_cargo_subtype;
         length:                         switch_2_7_2_length_11;
         articulated_part:               switch_SWB6120V4LE_articulated_part;
-        additional_text:                string(STR_DESC_4, string(STR_TYPE_URBAN), string(STR_SIZE_LARGE), string(STR_COMFORT, 181 ,string(STR_CLASS_HIGH_2)), string(STR_LOADING_SPEED, 40));
+        additional_text:                string(STR_DESC_5, string(STR_TYPE_URBAN), string(STR_SIZE_LARGE), string(STR_COMFORT, 181 ,string(STR_CLASS_HIGH_2)), string(STR_LOADING_SPEED, 40), string(STR_POWERTRAIN_TYPE, string(STR_DIESEL)));
 
-        cost_factor:                    195;
-        running_cost_factor:            3 * runningcostfactor();
-        purchase_running_cost_factor:   3 * 8;
+        cost_factor:                    244;
+        running_cost_factor:            17 * runningcostfactor();
+        purchase_running_cost_factor:   17 * 8;
         //当“申豪”系列新增其它车辆时取消该注释 name:                           switch_shenhao_name;
     }
 }

@@ -31,34 +31,6 @@ STR_DESC_5                  :{STRING}{}{STRING}{}{STRING}{}{STRING}{}{STRING}
 STR_DESC_6                  :{STRING}{}{STRING}{}{STRING}{}{STRING}{}{STRING}{}{STRING}
 STR_LV                      :{STRING}{STRING} {STRING} {STRING} {STRING} {STRING} {STRING} {STRING} {STRING} {STRING} {STRING} {STRING} {STRING} {STRING} {STRING} {STRING} {STRING} {STRING}
 
-STR_NAME_BJ6105CHEVCG_1             :BJ6105CHEVCG-1
-STR_NAME_BK640                      :BK640
-STR_NAME_GTQ6105BEVBT20             :GTQ6105BEVBT20
-STR_NAME_GTQ6121BEVBT3              :GTQ6121BEVBT3
-STR_NAME_JNP6127EA                  :JNP6127EA
-STR_NAME_JNP6181GVC                 :JNP6181GVC
-STR_NAME_JT663                      :JT663
-STR_NAME_KLQ6129GE4_HIGH_SPEC       :KLQ6129GE4  {SILVER}High-spec Version
-STR_NAME_KLQ6129GE4_STANDARD        :KLQ6129GE4  {SILVER}Standard Version
-STR_NAME_LCK6820HG                  :LCK6820HG
-STR_NAME_LEYLAND_OLYMPIAN_11M       :Leyland Olympian  {SILVER}11.3 Meters
-STR_NAME_SWB6120V4LE                :SWB6120V4LE
-STR_NAME_SWB6128V8LF                :SWB6128V8LF
-STR_NAME_SWB6128V8LF_3D             :SWB6128V8LF  {SILVER}3 Doors
-STR_NAME_TJ645B                     :TJ645B
-STR_NAME_XML6102J15Y_36SEATS        :XML6102J15Y  {SILVER}36 Seats
-STR_NAME_XML6102J15Y_48SEATS        :XML6102J15Y  {SILVER}48 Seats
-STR_NAME_ZK6100HGA                  :ZK6100HGA
-STR_NAME_ZK6125CHEVNPG29_HIGH_SPEC  :ZK6125CHEVNPG29  {SILVER}High-spec Version
-STR_NAME_ZK6125CHEVNPG29_STANDARD   :ZK6125CHEVNPG29  {SILVER}Standard Version
-STR_NAME_ZK6845BEVG1                :ZK6845BEVG1
-
-STR_LIST_KLQ6129GE4         :KLQ6129GE4
-STR_LIST_SHENHAO            :"Shenhao" Series
-STR_LIST_SUNWIN_8           :SUNWIN 8th Series
-STR_LIST_XML6102J15Y        :XML6105J15Y
-STR_LIST_ZK6125CHEVNPG29    :ZK6125CHEVNPG29
-
 STR_1                       :1
 STR_2                       :2
 
@@ -68,6 +40,8 @@ STR_LOADING_SPEED           :{BLACK}Loading Speed: {GOLD}{COMMA}
 STR_LIVERY_AVAILABLE        :{BLACK}Livery Availability:
 STR_TYPE_URBAN              :{BLACK}Type: {LTBLUE}Urban Bus
 STR_TYPE_REGIONAL           :{BLACK}Type: {YELLOW}Regional/Suburban Bus
+STR_TYPE_INTERCITY_BUS      :{BLACK}Type: {GREEN}Intercity Bus
+STR_TYPE_INTERCITY_COACH    :{BLACK}Type: {WHITE}Intercity Coach
 STR_TYPE_LONG_DISTANCE      :{BLACK}Type: {WHITE}Long-distance Coach
 STR_TYPE_TOURIST            :{BLACK}Type: {WHITE}Tourist Coach
 STR_SIZE_MINI               :{BLACK}Size: {YELLOW}Mini
@@ -79,9 +53,82 @@ STR_CLASS_MEDIUM            :{YELLOW}Medium
 STR_CLASS_HIGH_1            :{GREEN}High I
 STR_CLASS_HIGH_2            :{LTBLUE}High II
 STR_CLASS_HIGH_3            :{WHITE}High III
+STR_POWERTRAIN_TYPE         :{BLACK}Powertrain Type: {STRING}
+STR_PETROL                  :{RED}Petrol
+STR_DIESEL                  :{YELLOW}Diesel
+STR_COAL_GAS                :{YELLOW}Coal Gas
+STR_LPG                     :{GREEN}LPG
+STR_NG                      :{GREEN}NG
+STR_ELECTRIC                :{BLUE}Electric
+STR_HYDROGEN                :{WHITE}Hydrogen
+STR_HYBRID_2                :{GOLD}Hybrid ({STRING}, {STRING}{GOLD})
+STR_HYBRID_3                :{GOLD}Hybrid ({STRING}, {STRING}, {STRING}{GOLD})
 STR_COMFORT                 :{BLACK}Comfort: {GOLD}{COMMA}{BLACK} ({STRING}{BLACK})
 STR_COMFORT_WITHOUT_CLASS   :{BLACK}Comfort: {GOLD}{COMMA}
 
+# Lists A to Z
+STR_LIST_BFC6120            :BFC6120
+STR_LIST_HIGER_9_BUS        :Higer 9 Series Bus
+STR_LIST_HIGER_9_COACH      :Higer 9 Series Coach
+STR_LIST_HIGER_NEW_HAIWEI   :Higer New Haiwei Series
+STR_LIST_JNP6127FEA         :JNP6127FEA
+STR_LIST_SHENHAO            :"Shenhao" Series
+STR_LIST_SUNWIN_8           :SUNWIN 8 Series
+STR_LIST_XML6102J15Y        :XML6105J15Y
+STR_LIST_YUTONG_7           :YUTONG 7 Series
+STR_LIST_ZK6125CHEVNPG29    :ZK6125CHEVNPG29
+
+# Names A to Z
+STR_NAME_BFC6120_45SEATS            :BFC6120  {SILVER}45 Seats
+STR_NAME_BFC6120_54SEATS            :BFC6120  {SILVER}54 Seats
+STR_NAME_BJ6105CHEVCG_1             :BJ6105CHEVCG-1
+STR_NAME_BJ6123SHEVCA_7             :BJ6123SHEVCA-7
+STR_NAME_BK640                      :BK640
+STR_NAME_GTQ6105BEVBT20             :GTQ6105BEVBT20
+STR_NAME_GTQ6121BEVBT3              :GTQ6121BEVBT3
+STR_NAME_JNP6127EA                  :JNP6127EA
+STR_NAME_JNP6127FEA_39SEATS         :JNP6127FEA  {SILVER}39 Seats
+STR_NAME_JNP6127FEA_54SEATS         :JNP6127FEA  {SILVER}54 Seats
+STR_NAME_JNP6127FEA_60SEATS         :JNP6127FEA  {SILVER}60 Seats
+STR_NAME_JNP6181GVC                 :JNP6181GVC
+STR_NAME_JT663                      :JT663
+STR_NAME_KLQ6109QE4_38SEATS         :KLQ6109QE4  {SILVER}38 Seats
+STR_NAME_KLQ6109QE4_46SEATS         :KLQ6109QE4  {SILVER}46 Seats
+STR_NAME_KLQ6112HQE31               :KLQ6112HQE31
+STR_NAME_KLQ6112LDE41               :KLQ6112LDE41
+STR_NAME_KLQ6115HTAE50              :KLQ6115HTAE50
+STR_NAME_KLQ6116ZGBEVN1             :KLQ6116ZGBEVN1
+STR_NAME_KLQ6129GE4_HIGH_SPEC       :KLQ6129GE4  {SILVER}High-spec Version
+STR_NAME_KLQ6129GE4_STANDARD        :KLQ6129GE4  {SILVER}Standard Version
+STR_NAME_LCK6820HG                  :LCK6820HG
+STR_NAME_LEYLAND_OLYMPIAN_11M       :Leyland Olympian  {SILVER}11.3 Meters
+STR_NAME_SWB6120V4LE                :SWB6120V4LE
+STR_NAME_SWB6128V8LF                :SWB6128V8LF
+STR_NAME_SWB6128V8LF_3D             :SWB6128V8LF  {SILVER}3 Doors
+STR_NAME_TJ645B                     :TJ645B
+STR_NAME_XML6102J15Y_36SEATS        :XML6102J15Y  {SILVER}36 Seats
+STR_NAME_XML6102J15Y_48SEATS        :XML6102J15Y  {SILVER}48 Seats
+STR_NAME_ZK6100HGA                  :ZK6100HGA
+STR_NAME_ZK6117BEVY33               :ZK6117BEVY33
+STR_NAME_ZK6117H6Y1_30SEATS         :ZK6117H6Y1  {SILVER}30 Seats
+STR_NAME_ZK6117H6Y1_36SEATS         :ZK6117H6Y1  {SILVER}36 Seats
+STR_NAME_ZK6117H6Y1_48SEATS         :ZK6117H6Y1  {SILVER}48 Seats
+STR_NAME_ZK6125CHEVNPG29_HIGH_SPEC  :ZK6125CHEVNPG29  {SILVER}High-spec Version
+STR_NAME_ZK6125CHEVNPG29_STANDARD   :ZK6125CHEVNPG29  {SILVER}Standard Version
+STR_NAME_ZK6128H6QY1_39SEATS        :ZK6128H6QY1  {SILVER}39 Seats
+STR_NAME_ZK6128H6QY1_51SEATS        :ZK6128H6QY1  {SILVER}51 Seats
+STR_NAME_ZK6128H6QY6                :ZK6128H6QY6
+STR_NAME_ZK6137H16QY1_39SEATS       :ZK6137H16QY1  {SILVER}39 Seats
+STR_NAME_ZK6137H16QY1_54SEATS       :ZK6137H16QY1  {SILVER}54 Seats
+STR_NAME_ZK6845BEVG1                :ZK6845BEVG1
+STR_NAME_ZK6820BEVG33               :ZK6820BEVG33
+STR_NAME_ZK6820BEVG33_2D            :ZK6820BEVG33  {SILVER}2 Doors
+STR_NAME_ZK6907H6Y_26SEATS          :ZK6907H6Y  {SILVER}26 Seats
+STR_NAME_ZK6907H6Y_39SEATS_STANDARD :ZK6907H6Y  {SILVER}39 Seats Standard Version
+STR_NAME_ZK6907H6Y_39SEATS_HIGH_SPEC:ZK6907H6Y  {SILVER}39 Seats High-spec Version
+STR_NAME_ZK6907H6Y1                 :ZK6907H6Y1
+
+# Liveries A to Z
 STR_1L                      :{BLACK}One-step Version
 STR_2D                      :{BLACK}Two-door Version
 STR_2L                      :{BLACK}Two-step Version
@@ -95,10 +142,17 @@ STR_BJ_YUNTONG              :{BLACK}Beijing {RED}Yuntong {SILVER}Bus Company {BL
 STR_CJ                      :{CREAM}Changji Public Transport Group {BLACK}Livery
 STR_CB                      :{BLACK}Hong Kong {YELLOW}Citybus {RED}Lim{BLUE}ited {BLACK}Livery
 STR_DT                      :{BLUE}Datong Public Transport {LTBLUE}Group {BLACK}Livery
+STR_GZ_LOVELIVE_21          :{CREAM}CICF "Lovelive!" Livery of {GREEN}Guangzhou No.1 Bus Co.,{BLACK}2021
 STR_FC_ORIGINAL             :{GREEN}Original Livery {BLACK}of "Elegance" Design
 STR_HB                      :{YELLOW}Harbin Public Transport Group {BLACK}Livery
 STR_KLB                     :{BLACK}Hong Kong {WHITE}KMB {RED}Group {BLACK}Livery
 STR_ORIGINAL                :{BLACK}Original Livery
+STR_ORIGINAL_1_WINDSHIELD   :{BLACK}Original Livery with Single-windowshield
+STR_ORIGINAL_2_WINDSHIELD   :{BLACK}Original Livery with Double-windowshield
+STR_ORIGINAL_6_1_WINDSHIELD :{BLACK}Original Livery with Single-windowshield of YUTONG 6 Series
+STR_ORIGINAL_6_2_WINDSHIELD :{BLACK}Original Livery with Double-windowshield of YUTONG 6 Series
+STR_ORIGINAL_7_1_WINDSHIELD :{BLACK}Original Livery with Single-windowshield of YUTONG 7 Series
+STR_ORIGINAL_7_2_WINDSHIELD :{BLACK}Original Livery with Double-windowshield of YUTONG 7 Series
 STR_SH_GREEN                :{BLACK}Shanghai {GREEN}Green {BLACK}Livery
 STR_SH_PUDONG_BLUE          :{BLACK}Shanghai {WHITE}Pudong {BLUE}Blue {BLACK}Livery
 STR_SH_WHITE_GREEN          :{BLACK}Shanghai {GREEN}Green {BLACK}Livery with {WHITE}White Eyes
@@ -109,7 +163,13 @@ STR_TJBH                    :{YELLOW}Tianjin Binhai Public {BLUE}Transport {DKGR
 STR_TJBH_WHITE              :{WHITE}Tianjin Binhai Public {BLUE}Transport {DKGREEN}Group {BLACK}Livery {WHITE}White Version
 STR_VIP                     :{GOLD}"VIP" {BLACK}Livery
 STR_WHITE                   :{WHITE}White {BLACK}Livery
+STR_WHITE_1_WINDSHIELD      :{WHITE}White {BLACK}Livery with Single-windowshield
+STR_WHITE_2_WINDSHIELD      :{WHITE}White {BLACK}Livery with Double-windowshield
+STR_WHITE_6_1_WINDSHIELD    :{WHITE}White {BLACK}Livery with Single-windowshield of YUTONG 6 Series
+STR_WHITE_6_2_WINDSHIELD    :{WHITE}White {BLACK}Livery with Double-windowshield of YUTONG 6 Series
+STR_WHITE_7_1_WINDSHIELD    :{WHITE}White {BLACK}Livery with Single-windowshield of YUTONG 7 Series
+STR_WHITE_7_2_WINDSHIELD    :{WHITE}White {BLACK}Livery with Double-windowshield of YUTONG 7 Series
 STR_YG_ORIGINAL             :{GREEN}Original Livery {BLACK}of "Sunshine" Design
 STR_YG_TJ                   :{RED}Tianjin {SILVER}Public Transport {RED}Group {BLACK}Livery of "Sunshine" Design
-STR_GZ_LOVELIVE_21          :{CREAM}CICF "Lovelive!" Livery of {GREEN}Guangzhou No.1 Bus Co.,{BLACK}2021
+
 
