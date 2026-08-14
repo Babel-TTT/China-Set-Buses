@@ -19,7 +19,7 @@ spriteset (spriteset_KLQ6109QE4_46seats_tianjin, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32B
 switch (FEAT_ROADVEHS, SELF, switch_KLQ6109QE4_46seats_cargo_subtype, cargo_subtype) {
     0: return string(STR_ORIGINAL);
     1: return string(STR_BJ_BAFANGDA);
-    2: return string(STR_TJ);
+    2: return string(STR_TJ_SILVER);
     return CB_RESULT_NO_TEXT;
 }
 

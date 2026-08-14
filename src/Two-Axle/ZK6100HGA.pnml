@@ -26,7 +26,7 @@ spriteset (spriteset_ZK6100HGA_TJBH_WHITE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
 
 switch (FEAT_ROADVEHS, SELF, switch_ZK6100HGA_cargo_subtype, cargo_subtype) {
     0: return string(STR_ORIGINAL);
-    1: return string(STR_TJ);
+    1: return string(STR_TJ_SILVER);
     2: return string(STR_TJ_YING);
     3: return string(STR_TJBH);
     4: return string(STR_TJBH_WHITE);
@@ -89,7 +89,7 @@ item (FEAT_ROADVEHS, ZK6100HGA) {
         cargo_subtype_text:             switch_ZK6100HGA_cargo_subtype;
         length:                         switch_8_2_length_10;
         articulated_part:               switch_ZK6100HGA_articulated_part;
-        additional_text:                string(STR_DESC_5, string(STR_TYPE_URBAN), string(STR_SIZE_LARGE), string(STR_COMFORT, 123 ,string(STR_CLASS_ORIDINARY)), string(STR_LOADING_SPEED, 40), string(STR_POWERTRAIN_TYPE, string(STR_DIESEL)));
+        additional_text:                string(STR_DESC_5, string(STR_TYPE_URBAN), string(STR_SIZE_LARGE), string(STR_COMFORT, 123 ,string(STR_CLASS_ORDINARY)), string(STR_LOADING_SPEED, 40), string(STR_POWERTRAIN_TYPE, string(STR_DIESEL)));
 
         cost_factor:                    202;
         running_cost_factor:            18 * runningcostfactor();

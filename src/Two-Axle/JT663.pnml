@@ -57,7 +57,7 @@ item (FEAT_ROADVEHS, JT663) {
         purchase:                       spriteset_JT663_purchase;
         length:                         switch_8_1_length_9;
         articulated_part:               switch_JT663_articulated_part;
-        additional_text:                string(STR_DESC_5, string(STR_TYPE_LONG_DISTANCE), string(STR_SIZE_MEDIUM), string(STR_COMFORT, 191 ,string(STR_CLASS_ORIDINARY)), string(STR_LOADING_SPEED, 10), string(STR_POWERTRAIN_TYPE, string(STR_PETROL)));
+        additional_text:                string(STR_DESC_5, string(STR_TYPE_LONG_DISTANCE), string(STR_SIZE_MEDIUM), string(STR_COMFORT, 191 ,string(STR_CLASS_ORDINARY)), string(STR_LOADING_SPEED, 10), string(STR_POWERTRAIN_TYPE, string(STR_PETROL)));
 
         cost_factor:                    130;
         running_cost_factor:            13 * runningcostfactor();

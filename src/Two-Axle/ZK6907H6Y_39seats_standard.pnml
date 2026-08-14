@@ -59,7 +59,7 @@ item (FEAT_ROADVEHS, ZK6907H6Y_39seats_standard) {
         default:                        switch_ZK6907H6Y_39seats_standard_graphics;
         purchase:                       spriteset_ZK6907H6Y_39seats_standard_purchase;
         cargo_subtype_text:             switch_ZK6907H6Y_39seats_standard_cargo_subtype;
-        additional_text:                string(STR_DESC_5, string(STR_TYPE_INTERCITY_COACH), string(STR_SIZE_MEDIUM), string(STR_COMFORT, 205 ,string(STR_CLASS_ORIDINARY)), string(STR_LOADING_SPEED, 10), string(STR_POWERTRAIN_TYPE, string(STR_DIESEL)));
+        additional_text:                string(STR_DESC_5, string(STR_TYPE_INTERCITY_COACH), string(STR_SIZE_MEDIUM), string(STR_COMFORT, 205 ,string(STR_CLASS_ORDINARY)), string(STR_LOADING_SPEED, 10), string(STR_POWERTRAIN_TYPE, string(STR_DIESEL)));
 
         cost_factor:                    193;
         running_cost_factor:            18 * runningcostfactor();

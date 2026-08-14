@@ -5,7 +5,7 @@ spriteset (spriteset_ZK6125CHEVNPG29_high_spec_purchase, ZOOM_LEVEL_IN_4X, BIT_D
 }
 
 spriteset (spriteset_ZK6125CHEVNPG29_high_spec_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_standard_2 ("Two-Axle", "ZK6125CHEVNPG29")
+    template_standard_0 ("Two-Axle", "ZK6125CHEVNPG29")
 }
 
 switch (FEAT_ROADVEHS, SELF, switch_ZK6125CHEVNPG29_high_spec_cargo_subtype, cargo_subtype) {
@@ -18,12 +18,12 @@ switch (FEAT_ROADVEHS, SELF, switch_ZK6125CHEVNPG29_high_spec_cargo_graphics, ca
 }
 
 switch (FEAT_ROADVEHS, SELF, switch_ZK6125CHEVNPG29_high_spec_graphics, position_in_articulated_veh) {
-    1: switch_ZK6125CHEVNPG29_high_spec_cargo_graphics;
+    0: switch_ZK6125CHEVNPG29_high_spec_cargo_graphics;
     empty_sprites;
 }
 
 switch (FEAT_ROADVEHS, SELF, switch_ZK6125CHEVNPG29_high_spec_articulated_part, extra_callback_info1) {
-    1..2 : return ZK6125CHEVNPG29_high_spec;
+    1 : return ZK6125CHEVNPG29_high_spec;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
@@ -56,7 +56,7 @@ item (FEAT_ROADVEHS, ZK6125CHEVNPG29_high_spec) {
         tractive_effort_coefficient:    0.3;
         speed:                          70 km/h;
 
-        cargo_capacity:                 27;
+        cargo_capacity:                 40;
         loading_speed:                  40 << param_loading_speed;
         cargo_age_period:               158 << param_cargo_decay;
     }
@@ -64,7 +64,7 @@ item (FEAT_ROADVEHS, ZK6125CHEVNPG29_high_spec) {
         default:                        switch_ZK6125CHEVNPG29_high_spec_graphics;
         purchase:                       spriteset_ZK6125CHEVNPG29_high_spec_purchase;
         cargo_subtype_text:             switch_ZK6125CHEVNPG29_high_spec_cargo_subtype;
-        length:                         switch_2_7_2_length_11;
+        length:                         switch_8_3_length_11;
         articulated_part:               switch_ZK6125CHEVNPG29_high_spec_articulated_part;
         additional_text:                string(STR_DESC_5, string(STR_TYPE_URBAN), string(STR_SIZE_LARGE), string(STR_COMFORT, 158 ,string(STR_CLASS_HIGH_2)), string(STR_LOADING_SPEED, 40), string(STR_POWERTRAIN_TYPE, string(STR_HYBRID_2, string(STR_ELECTRIC), string(STR_NG))));
 

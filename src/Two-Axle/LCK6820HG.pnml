@@ -64,7 +64,7 @@ item (FEAT_ROADVEHS, LCK6820HG) {
         default:                        switch_LCK6820HG_graphics;
         purchase:                       spriteset_LCK6820HG_purchase;
         cargo_subtype_text:             switch_LCK6820HG_cargo_subtype;
-        additional_text:                string(STR_DESC_5, string(STR_TYPE_URBAN), string(STR_SIZE_MEDIUM), string(STR_COMFORT, 112 ,string(STR_CLASS_ORIDINARY)), string(STR_LOADING_SPEED, 30), string(STR_POWERTRAIN_TYPE, string(STR_DIESEL)));
+        additional_text:                string(STR_DESC_5, string(STR_TYPE_URBAN), string(STR_SIZE_MEDIUM), string(STR_COMFORT, 112 ,string(STR_CLASS_ORDINARY)), string(STR_LOADING_SPEED, 30), string(STR_POWERTRAIN_TYPE, string(STR_DIESEL)));
 
         cost_factor:                    164;
         running_cost_factor:            14 * runningcostfactor();

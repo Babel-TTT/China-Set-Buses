@@ -1,20 +1,35 @@
 // Begin BJ6123SHEVCA_7
 
 spriteset (spriteset_BJ6123SHEVCA_7_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_purchase_32bpp ("Two-Axle", "BJ6123SHEVCA_7_ORIGINAL")
+    template_purchase_32bpp ("Two-Axle", "BJ6123SHEVCA_7_BJ_BDL")
 }
 
-spriteset (spriteset_BJ6123SHEVCA_7_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_standard_2 ("Two-Axle", "BJ6123SHEVCA_7_ORIGINAL")
+spriteset (spriteset_BJ6123SHEVCA_7_bdl, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+    template_standard_0 ("Two-Axle", "BJ6123SHEVCA_7_BJ_BDL")
+}
+
+spriteset (spriteset_BJ6123SHEVCA_7_blc, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+    template_standard_0 ("Two-Axle", "BJ6123SHEVCA_7_BJ_BLC")
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_BJ6123SHEVCA_7_cargo_subtype, cargo_subtype) {
+    0: return string(STR_BJ_BEIDIANLAN);
+    1: return string(STR_BJ_BLUE_LUCKY_CLOUDS);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_BJ6123SHEVCA_7_cargo_graphics, cargo_subtype) {
+    0: spriteset_BJ6123SHEVCA_7_bdl;
+    1: spriteset_BJ6123SHEVCA_7_blc;
 }
 
 switch (FEAT_ROADVEHS, SELF, switch_BJ6123SHEVCA_7_graphics, position_in_articulated_veh) {
-    1: spriteset_BJ6123SHEVCA_7_original;
+    0: switch_BJ6123SHEVCA_7_cargo_graphics;
     empty_sprites;
 }
 
 switch (FEAT_ROADVEHS, SELF, switch_BJ6123SHEVCA_7_articulated_part, extra_callback_info1) {
-    1..2 : return BJ6123SHEVCA_7;
+    1 : return BJ6123SHEVCA_7;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
@@ -44,16 +59,17 @@ item (FEAT_ROADVEHS, BJ6123SHEVCA_7) {
         tractive_effort_coefficient:    0.3;
         speed:                          70 km/h;
 
-        cargo_capacity:                 27;
+        cargo_capacity:                 40;
         loading_speed:                  40 << param_loading_speed;
         cargo_age_period:               160 << param_cargo_decay;
     }
     graphics {
         default:                        switch_BJ6123SHEVCA_7_graphics;
         purchase:                       spriteset_BJ6123SHEVCA_7_purchase;
-        length:                         switch_2_7_2_length_11;
+        cargo_subtype_text:             switch_BJ6123SHEVCA_7_cargo_subtype;
+        length:                         switch_8_3_length_11;
         articulated_part:               switch_BJ6123SHEVCA_7_articulated_part;
-        additional_text:                string(STR_DESC_5, string(STR_TYPE_URBAN), string(STR_SIZE_LARGE), string(STR_COMFORT, 160 ,string(STR_CLASS_HIGH_2)), string(STR_LOADING_SPEED, 40), string(STR_POWERTRAIN_TYPE, string(STR_HYBRID_2, string(STR_ELECTRIC), string(STR_NG))));
+        additional_text:                string(STR_DESC_5, string(STR_TYPE_URBAN), string(STR_SIZE_LARGE), string(STR_COMFORT, 160 ,string(STR_CLASS_HIGH_1)), string(STR_LOADING_SPEED, 40), string(STR_POWERTRAIN_TYPE, string(STR_HYBRID_2, string(STR_ELECTRIC), string(STR_NG))));
 
         cost_factor:                    291;
         running_cost_factor:            9 * runningcostfactor();

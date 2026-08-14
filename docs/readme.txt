@@ -16,8 +16,8 @@ including urban buses, suburban/regional buses, intercity buses/coaches, long-di
 Bus Classification:
 - Urban Bus: primarily operates in urban areas with few seats and ample standing room.
 - Suburban/Regional Bus: primarily operates in suburban/regional areas with more seats and limited standing room.
-- Intercity Bus/Coach: offering passenger services between nearby cities.
-- Long-distance Coach: mainly used for intercity and long-distance services, with a large number of seats and no standing room provided.
+- Intercity Bus/Coach: buses or coaches offering passenger services between nearby cities.
+- Long-distance Coach: mainly used for long-distance services, with a large number of seats and no standing room provided.
 - Tourist Coach: mainly used for high-value services, with luxurious and spacious interior arrangements and no standing room provided.
 
 According to Chinese laws and regulations, buses manufactured in 2013 and later must be equipped with 
@@ -108,10 +108,9 @@ Thanks to:
 - planetmaker
 - Simo333
 - Timberwolf
-- 2cc Trainset Team
-- Finnish Trainset Team
-- JP+ Team
-- xUSSR Team
+
+- CS Bus set team
+- Ikarus set team
 
 Special thanks to everyone whom thanks is due;
 Patch Pack Developers, especially JGR;

@@ -23,12 +23,12 @@ switch (FEAT_ROADVEHS, SELF, switch_KLQ6112LDE41_cargo_graphics, cargo_subtype) 
 }
 
 switch (FEAT_ROADVEHS, SELF, switch_KLQ6112LDE41_graphics, position_in_articulated_veh) {
-    1: switch_KLQ6112LDE41_cargo_graphics;
+    0: switch_KLQ6112LDE41_cargo_graphics;
     empty_sprites;
 }
 
 switch (FEAT_ROADVEHS, SELF, switch_KLQ6112LDE41_articulated_part, extra_callback_info1) {
-    1..2 : return KLQ6112LDE41;
+    1 : return KLQ6112LDE41;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
@@ -61,17 +61,17 @@ item (FEAT_ROADVEHS, KLQ6112LDE41) {
         tractive_effort_coefficient:    0.3;
         speed:                          100 km/h;
 
-        cargo_capacity:                 18 ;
+        cargo_capacity:                 27 ;
         loading_speed:                  20 << param_loading_speed;
-        cargo_age_period:               283 << param_cargo_decay;
+        cargo_age_period:               226 << param_cargo_decay;
     }
     graphics {
         default:                        switch_KLQ6112LDE41_graphics;
         purchase:                       spriteset_KLQ6112LDE41_purchase;
         cargo_subtype_text:             switch_KLQ6112LDE41_cargo_subtype;
-        length:                         switch_2_7_2_length_11;
+        length:                         switch_8_3_length_11;
         articulated_part:               switch_KLQ6112LDE41_articulated_part;
-        additional_text:                string(STR_DESC_5, string(STR_TYPE_LONG_DISTANCE), string(STR_SIZE_LARGE), string(STR_COMFORT, 283 ,string(STR_CLASS_HIGH_1)), string(STR_LOADING_SPEED, 20), string(STR_POWERTRAIN_TYPE, string(STR_DIESEL)));
+        additional_text:                string(STR_DESC_5, string(STR_TYPE_INTERCITY_COACH), string(STR_SIZE_LARGE), string(STR_COMFORT, 226 ,string(STR_CLASS_MEDIUM)), string(STR_LOADING_SPEED, 20), string(STR_POWERTRAIN_TYPE, string(STR_DIESEL)));
         cost_factor:                    268;
         running_cost_factor:            21 * runningcostfactor();
         purchase_running_cost_factor:   21 * 8;
